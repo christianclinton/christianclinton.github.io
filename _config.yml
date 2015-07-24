@@ -1,0 +1,14 @@
+# Site settings
+title: Christian Clinton
+description: Christian Clinton | Linux Systems Engineer
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://christianclinton.com" # the base hostname & protocol for your site
+twitter_username: lessmonotony
+github_username:  christianclinton
+safe: true
+exclude:
+ - CNAME
+ - README.md
+
+# Build settings
+markdown: kramdown

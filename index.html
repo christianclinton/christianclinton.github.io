@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Christian Clinton</title>
-  </head>
-  <body>
-    <div style="text-align: center;">
-      <p>
-        Christian Clinton
-      </p>
-      <p>
-        <a href="https://www.linkedin.com/in/christianclinton">LinkedIn</a>&nbsp;|
-        <a href="https://twitter.com/lessmonotony">Twitter</a>&nbsp;|
-        <a href="https://github.com/christianclinton">GitHub</a>
-      </p>
-    </div>
-  </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+  {% capture about_include %}{% include about.md %}{% endcapture %}
+  <div>
+  {{ about_include | markdownify }}
+  </div>
+</div>
